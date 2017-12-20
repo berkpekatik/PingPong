@@ -107,7 +107,7 @@ namespace PingPong
                 if (bricksPos.IntersectsWith(ballPos))//Topun tuğla ile kesişimi
                 {
                     bricks.RemoveAt(i);
-                    brick.BackColor = Color.Transparent;
+                    brick.Visible = false;
                     label4.Text = bricksPos.ToString();
                     speed_top = -speed_top; //Yön değişimi
                     point += 1;
