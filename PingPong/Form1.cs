@@ -142,7 +142,7 @@ namespace PingPong
             {
                 timer1.Enabled = false;
                 level++;
-                allBricks = level * allBricks;
+                allBricks = level * 1;
                 createBrick();
                 racket.Top = this.Bottom - (this.Bottom / 10);
                 speed_left = 4; //Top hızı
